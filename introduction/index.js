@@ -2,6 +2,7 @@
 // console.log(hello);
 const fs = require('fs');
 
+//Blocking, synchronous ways
 const textIn = fs.readFileSync('./input.txt','utf-8');
 console.log(textIn);
 
