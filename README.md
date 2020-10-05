@@ -42,3 +42,5 @@ Modules
 NPM(Node package Manager)
 ----
 - Node manager is the command line interface app that automatically comes included with node js which we use to install and manage open source packages.
+
+- nodemon (package): Automatically restarts the server once a change has been saved. 
