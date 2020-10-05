@@ -44,3 +44,59 @@ NPM(Node package Manager)
 - Node manager is the command line interface app that automatically comes included with node js which we use to install and manage open source packages.
 
 - nodemon (package): Automatically restarts the server once a change has been saved. 
+
+Slug
+-----
+- Last part of URL that contains the uniqure string that identifies the resource that the website is displaying
+
+
+Over view of How the web works
+-------------------------------
+- Reauest-response model or Client-server architecture.
+
+ https://www.google.com/maps
+
+ HTTP or HTTPS => Protocol.
+ www.google.com => Domain name.
+ /maps => Resource.
+
+ DNS
+ -----
+ - Domain Name System.(A special server).(Phone book of the internet).
+
+ STEP - 1 
+ - Browser requests DNS. DNS matches the web address to the real IP address of the server.
+ - It happens through the internet serviec provider(ISP).
+ - So domain is not the real adress. DNS converts into the IP address.
+
+ https://216.58.211.206:433
+
+ HTTP or HTTPS: Protocol.
+ 216.58.211.296:433  : IP addresss.
+ 433   : Port number(kind of sub address.). Deafult 443 for HTTPS. 80 for HTTP.
+
+ STEP -2
+ - Once we have a real connection, a TCP/IP socket connection established across between the server and the browser. Finally get connected.
+
+ TCP: It is the Transmission controll protocol and the IP: is the internet protocol. Together they are 
+ communication protocols that defines exactly how data travel across the web.
+ - They are basically internet's fundamental controll system.
+
+Basic HTTP request
+------------------
+- HTTP method + request target + HTTP version
+- HTTP request headers (many different possibilities.)
+    GET /map HTTP/1.1
+    Host: www.google.com
+    User-Agent: Mozilla/5.0
+    Accept-Language: en-US    
+    <BODY>
+Basic HTTP RESPONSE
+-------------------
+- HTTP version + status code + status message
+    HTTP/1.1 200 OK
+    Headers
+    <BODY>
+
+
+
