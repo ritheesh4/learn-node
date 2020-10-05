@@ -33,3 +33,12 @@ Why using synchronous code is a bad habit.
  - So using the asynchronous fucntion, once the process has been completed, there would be callback fucntion to execute the code according to the need. So the rest of the codes do not get blocked.
 - This is why we use so many callback functions in Node.js.
 - Multiple callbacks create more complicated triganle is called as callback hell.
+
+
+Modules
+-----------
+- In Node js, every single file is read as a module.
+
+NPM(Node package Manager)
+----
+- Node manager is the command line interface app that automatically comes included with node js which we use to install and manage open source packages.
