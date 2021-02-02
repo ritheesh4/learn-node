@@ -1,0 +1,17 @@
+Database
+NOSQL
+- Collections (Tables)
+- Documents (Rows)
+
+- Document based: MongoDb stores data in docuemnts (field-value pair data strctures, NoSQL).
+- Scalable: Very easy to distribute data across multiple machines as your users and amount of data grows.
+- Flexible: NO document data schema required, so each document can have different number and type of fields.
+- Performant: Embedded data modes. inexing, sharding, flexible documents, native duplication, etc.
+- Free and open-source, published under SSPL.
+
+Commands
+ - use (db name)
+ - db.tours.insertOne({object})
+ - db.tours.find()
+ - show dbs
+ - show collections
